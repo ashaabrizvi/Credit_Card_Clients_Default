@@ -28,3 +28,8 @@ So, tune the Hyperparameters and choose the evaluation metrices and then click o
 
 Also, You can go through the Raw Data by clicking on Show Raw Data.
 
+Here, are some screenshots from the App.
+
+
+
+
