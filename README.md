@@ -1,4 +1,4 @@
-# Credit Card Default Web App
+# Credit Card Clients Default Web App
 
 Have a look at it -
 
@@ -13,10 +13,18 @@ The evaluation metrices used here are -
 
 Also, along with Accuracy, there is a precision and recall score as per the model hyperparameters.
 
-For Logistic Regression, The Model Hyperparameters are - C(Regularization Parameter) and Max no. of iterations.
+For Logistic Regression, The Model Hyperparameters are - 
 
-For Random Forest, The Model Hyperparameters are - No. of trees, Depth of trees and Bootstrap sample(True/False).
+1. C(Regularization Parameter) 
+2. Max no. of iterations.
 
-So,tune the Hyperparameters and choose the evaluation metrices and then click on Classify.
+For Random Forest, The Model Hyperparameters are - 
+
+1. No. of trees in forest
+2. Depth of trees 
+3. Bootstrap sample(True/False).
+
+So, tune the Hyperparameters and choose the evaluation metrices and then click on Classify.
 
 Also, You can go through the Raw Data by clicking on Show Raw Data.
+
