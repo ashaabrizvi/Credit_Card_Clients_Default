@@ -30,10 +30,7 @@ Also, You can go through the Raw Data by clicking on Show Raw Data.
 
 Here are some screenshots from the App.
 
-![](screenshots/1.png)
-![](screenshots/2.png)
-![](screenshots/3.png)
-![](screenshots/4.png)
+
 
 
 
