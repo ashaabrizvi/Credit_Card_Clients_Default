@@ -2,7 +2,7 @@
 
 Have a look at it -
 
-Deployed on Heroku - https://creditcardclientsdefault.herokuapp.com/ ( Sometimes it may not work due to limited dynos in free tier on Heroku )
+Deployed on Heroku - https://creditcardclientsdefault.herokuapp.com/ (Sometimes it may not work due to limited dynos in free tier on Heroku)
 
 Solution - GitHub repository is another cool way of hosting the code for the Streamlit web app. This cannot be counted as an entire deployment method but one of the excellent features of Streamlit that it allows a link to the code in the streamlit run command.
 
