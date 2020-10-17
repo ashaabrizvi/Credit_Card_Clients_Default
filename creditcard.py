@@ -8,8 +8,6 @@ from sklearn.metrics import plot_roc_curve,plot_confusion_matrix,plot_precision_
 from sklearn.metrics import precision_score,recall_score
 
 def main():
-    st.markdown('Made by - ashaabrizvi11@gmail.com')
-    st.markdown('Machine Learning Developer Intern at Technocolabs')
     st.title("Default of Credit Card Clients")
     st.sidebar.title("Default of Credit Card Clients")
     
