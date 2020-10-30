@@ -15,18 +15,8 @@ def main():
     st.markdown("The problem statement we are trying to address here is a classification problem. We have a dataset that has the payment history of a particular account holder, using this we need to predict whether a particular account holder will be a defaulter in the next month or not.")
     
     st.markdown("So, Let's evaluate our model with different Evaluation metrices as the metrices provide us how effective our model is.")
-
-
-   
-                
     st.sidebar.markdown("Let\'s do it")
-    
-   
     data = pd.read_csv('https://raw.githubusercontent.com/Technocolabs100/Project-Data-Set-Repository/master/Data%20set/cleaned_data.csv')
-    
-    
-    
-    
     
     @st.cache(persist=True)
     def split(data):
@@ -36,8 +26,6 @@ def main():
                    'EDUCATION_CAT', 'graduate school', 'high school', 
                    'others', 'university','default payment next month'])
        
-         
-         
          x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.2,random_state=24)
          return x_train,x_test,y_train,y_test
      
@@ -45,22 +33,16 @@ def main():
         if 'Confusion Matrix' in metrics_list:
             st.subheader("Confusion Matrix")
             plot_confusion_matrix(Model,x_test,y_test,display_labels=class_names)
-       
-      
             st.pyplot()
-        
         
         if 'ROC Curve' in metrics_list:
             st.subheader("ROC Curve")
             plot_roc_curve(Model,x_test,y_test)
-       
-      
             st.pyplot()
             
         if 'Precision Recall Curve' in metrics_list:
             st.subheader("Precision Recall Curve")
             plot_precision_recall_curve(Model,x_test,y_test)
-
             st.pyplot()
             
             
