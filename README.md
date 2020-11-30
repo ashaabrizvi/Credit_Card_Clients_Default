@@ -4,7 +4,7 @@ Have a look at it -
 
 Deployed on Heroku - https://creditcardclientsdefault.herokuapp.com/ (Sometimes it may not work due to limited dynos in free tier on Heroku)
 
-Deployed on Streamlit Share - https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py
+Deployed on Streamlit Share - https://share.streamlit.io/ashaabrizvi/credit_card_clients_default/creditcard.py (Working Fine)
 
 This App is meant to check how effective our model is for Credit Card Default Prediction with the help of evaluation metrices.
 
